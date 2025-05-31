@@ -1,0 +1,13 @@
+[[projects]]
+title = "My Cool Project"
+description = "A brief description of my cool project."
+image = "/images/projects/cool-project.jpg"
+tech = "Go, Hugo, Tailwind"
+link = "https://github.com/yourusername/cool-project"
+
+[[projects]]
+title = "Another Project"
+description = "This project does amazing things."
+image = "/images/projects/another-project.jpg"
+tech = "Python, Flask, Docker"
+link = "https://github.com/yourusername/another-project"

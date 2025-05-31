@@ -1,0 +1,34 @@
+name = "Your Name"
+location = "Your Location"
+description = "Description ..."
+profile_image = "/images/your-profile.jpg"
+github = "https://github.com/yourusername"
+twitter = "https://twitter.com/yourusername"
+linkedin = "https://linkedin.com/in/yourusername"
+email = "your.email@example.com"
+
+[[honors]]
+institution = "University of Excellence"
+title = "Bachelor of Computer Science"
+date = "2015 - 2019"
+
+[[honors]]
+institution = "Tech Conference"
+title = "Best Developer Award"
+date = "2021"
+
+[[certifications]]
+title = "Certified Web Developer"
+url = "https://certifications.example.com/webdev"
+date = "2020"
+
+[[certifications]]
+title = "Cloud Practitioner"
+url = "https://certifications.example.com/cloud"
+date = "2022"
+
+[voluntary]
+organization = "Local Community Center"
+role = "Volunteer Mentor"
+period = "2018 - Present"
+description = "Mentoring youth in coding and digital skills."
