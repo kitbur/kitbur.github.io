@@ -28,7 +28,16 @@ url = "https://certifications.example.com/cloud"
 date = "2022"
 
 [voluntary]
+# [[voluntary]]
 role = "Community Lead"
 organization = "Lorem Foundation"
 period = "2020 - Present"
 description = "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis."
+url = "https://example.com"
+
+# [[voluntary]]
+# role = "Open Source Contributor"
+# organization = "Various Projects"
+# period = "2018 - Present"
+# description = "Contributed to multiple open source projects in the Go and JavaScript ecosystems."
+# url = "https://github.com/opensource"
