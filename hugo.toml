@@ -42,8 +42,8 @@ github_username = "kitbur"
     url = "/about/"
     weight = 1
   [[menu.main]]
-    name = "Experience"
-    url = "/experience/"
+    name = "Work"
+    url = "/work/"
     weight = 2
   [[menu.main]]
     name = "Projects"
@@ -54,6 +54,6 @@ github_username = "kitbur"
   #   url = "/blogs/"
   #   weight = 4
   [[menu.main]]
-    name = "Contact Me"
+    name = "Contact"
     url = "/contact/"
     weight = 5
