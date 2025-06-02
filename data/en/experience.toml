@@ -25,3 +25,9 @@ responsibilities = [
   "Maintained community safety by upholding terms of service policies and responding to user questions and concerns.",
 ]
   technologies = ["Docker", "Ruby", "Rails", "Git", "Jira", "Zoho", "Slack"]
+
+[[experience]]
+  role = "Open Source Contributer"
+  company = "GitHub"
+  company_link = "https://github.com/"
+  period = "May 2025 - Present"
