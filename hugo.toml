@@ -17,7 +17,7 @@ canonifyURLs = true
 [params]
 name = "K. Burford"
 location = "Ohio, USA"
-description = "Full-stack software engineer focused on building flexible web applications, and supporting open source initiatives."
+description = "Full-stack software engineer focused on building flexible web applications and supporting open source initiatives."
 # profile_image = "/images/profile.jpg"
 discord = "kiturf"
 github = "https://github.com/kitbur"
@@ -49,11 +49,7 @@ github_username = "kitbur"
     name = "Projects"
     url = "/projects/"
     weight = 3
-  # [[menu.main]]
-  #   name = "Blogs"
-  #   url = "/blogs/"
-  #   weight = 4
   [[menu.main]]
     name = "Contact"
     url = "/contact/"
-    weight = 5
+    weight = 4
