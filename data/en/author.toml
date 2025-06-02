@@ -1,12 +1,3 @@
-name = "K. Burford"
-location = "Ohio, USA"
-description = "Full-stack software engineer passionate about building flexible, user-friendly web applications and supporting open source."
-profile_image = "/images/your-profile.jpg"
-github = "https://github.com/kitbur"
-# twitter = "https://twitter.com/yourusername"
-# linkedin = "https://linkedin.com/in/yourusername"
-# email = "your.email@example.com"
-
 [[honors]]
 institution = "Ohio University"
 title = "B.A. of English, cum laude"
