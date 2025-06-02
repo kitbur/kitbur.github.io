@@ -1,25 +1,27 @@
 [[experience]]
-  role = "Senior Developer"
-  company = "Tech Solutions Inc."
-  company_link = "https://www.techsolutions.com" # Add company URL here
-  period = "Jan 2020 - Present"
-  country = "USA" # New field for region/country
-  # description = "Longer description of the role..." # Optional detailed description
-  responsibilities = [
-    "Developed and maintained web applications.",
-    "Collaborated with cross-functional teams.",
-    "Led junior developers."
-  ]
-  technologies = ["Go", "Docker", "Kubernetes", "React"]
+  role = "Full-Stack Software Engineer"
+  company = "Freelancer"
+  company_link = "https://kitbur.github.io"
+  period = "April 2019 - Present"
+  country = "USA"
+responsibilities = [
+  "Designed, developed, and maintained responsive websites and web applications tailored to client needs.",
+  "Worked closely with clients and community members to understand requirements and deliver user-focused solutions.",
+  "Built server-side functionality using Node.js to ensure efficient, scalable application performance.",
+  "Installed and configured robust content management systems, tools, and projects."
+]
+  technologies = ["JavaScript", "CSS", "HTML", "Node.js", "React", "PHP", "Ruby", "MySQL", "Git", "Docker"]
 
 [[experience]]
-  role = "Software Engineer"
-  company = "Innovate LLC"
-  # company_link = "" # Omit or leave blank if no link
-  period = "Jun 2018 - Dec 2019"
-  country = "Canada"
-  responsibilities = [
-    "Contributed to full-stack development projects.",
-    "Participated in code reviews and agile sprints."
-  ]
-  technologies = ["Python", "Django", "PostgreSQL"]
+  role = "Trust & Safety Volunteer / Codebase Contributor"
+  company = "Organization for Transformative Works"
+  company_link = "https://transformativeworks.org"
+  period = "2016 - Present"
+  country = "Remote"
+responsibilities = [
+  "Contributed to the archive project's codebase, helping improve functionality, internal tools, and workflows.",
+  "Collaborated across multiple committees in a team-based, international environment to troubleshoot issues, enhance accessibility, and deliver user-facing features.",  
+  "Managed and curated large-scale metadata to improve content discoverability and user experience.",
+  "Maintained community safety by upholding terms of service policies and responding to user questions and concerns.",
+]
+  technologies = ["Docker", "Ruby", "Rails", "Git", "Jira", "Zoho", "Slack"]
