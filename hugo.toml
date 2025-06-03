@@ -4,6 +4,7 @@ title = 'K. Burford'
 theme = 'hugo-noir'
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
+favicon = "/favicon.ico"  # Path relative to `static/`
 
 # URL handling
 relativeURLs = true
