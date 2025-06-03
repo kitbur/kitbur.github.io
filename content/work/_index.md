@@ -3,4 +3,4 @@ title: "Work"
 layout: "experience"
 ---
 
-My career in tech grew from personal experiments into professional work focused on building resilient systems and solving real-world problems for my clients through code.
+With over ten years of freelance experience, I've built a career founded on discipline, independence, and getting things done right.
