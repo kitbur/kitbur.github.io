@@ -16,12 +16,12 @@ responsibilities = [
   role = "Trust & Safety Volunteer / Codebase Contributor"
   company = "Organization for Transformative Works"
   company_link = "https://transformativeworks.org"
-  period = "2016 - Present"
+  period = "May 2016 - Present"
   country = "Remote"
 responsibilities = [
-  "Contributed to the archive project's codebase, helping improve functionality, internal tools, and workflows.",
+  "Contributed to a large-scale Ruby on Rails application that serves millions of users by improving internal tools, workflows, and core functionality.",
   "Collaborated across multiple committees in a team-based, international environment to troubleshoot issues, enhance accessibility, and deliver user-facing features.",  
-  "Managed and curated large-scale metadata to improve content discoverability and user experience.",
+  "Managed and curated metadata to improve content discoverability and user experience.",
   "Maintained community safety by upholding terms of service policies and responding to user questions and concerns.",
 ]
   technologies = ["Docker", "Ruby", "Rails", "Git", "Jira", "Zoho", "Slack"]
@@ -29,5 +29,5 @@ responsibilities = [
 [[experience]]
   role = "Open Source Contributer"
   company = "GitHub"
-  company_link = "https://github.com/"
+  company_link = "https://github.com/kitbur"
   period = "May 2025 - Present"
