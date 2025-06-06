@@ -1,6 +1,6 @@
 [[projects]]
 title = "Archivist's Folio"
-description = "Built for a client, this art gallery website is a sleek, modern, and fully responsive portfolio. The code is closed source due to licensing."
+description = "Built for a client in March 2024, this art gallery website is a sleek, modern, and fully responsive portfolio. The code is closed source due to licensing."
 image = "/images/projects/archivists-folio.gif"
 tech = "Ruby, HTML, CSS, Jekyll"
 link = "https://archivists-folio.netlify.app/"
