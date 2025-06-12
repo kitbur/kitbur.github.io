@@ -9,6 +9,7 @@ tech:
   - "Ruby"
   - "HTML"
   - "CSS"
+  - "SCSS"
   - "Jekyll"
 ---
 
