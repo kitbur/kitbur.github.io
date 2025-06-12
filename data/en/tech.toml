@@ -1,6 +1,6 @@
 row1 = [
   { icon = "devicon-python-plain text-2xl", name = "Python" },
-  { icon = "devicon-nginx-original", name = "nginx" },
+  { icon = "devicon-go-plain", name = "Go" },
   { icon = "devicon-less-plain-wordmark", name = "LESS" },
   { icon = "devicon-javascript-plain", name = "JavaScript" },
   { icon = "devicon-ruby-plain", name = "Ruby" },
@@ -22,6 +22,7 @@ row2 = [
   { icon = "devicon-mongodb-plain text-2xl", name = "MongoDB" },
   { icon = "devicon-mysql-plain", name = "MySQL" },
   { icon = "devicon-linux-plain", name = "Linux" },
+  { icon = "devicon-nginx-original", name = "nginx" },
   { icon = "devicon-composer-line", name = "Composer" },
   { icon = "devicon-webpack-plain", name = "Webpack" },
   { icon = "devicon-git-plain", name = "Git" },
