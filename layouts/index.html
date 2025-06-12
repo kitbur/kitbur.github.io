@@ -49,235 +49,51 @@
     {{ warnf "Author data not found. Please check your site configuration." }}
     {{ end }}
 
-    <!-- tech stack here -->
-    <section class="mb-20">
-        <h2 class="text-4xl font-bold mb-2 relative">Tech Stack</h2>
-        <div class="tech-carousel">
-            <!-- Row 1 -->
-            <div class="carousel-container">
-                <div class="carousel-track carousel-track-left-to-right">
-                    <div class="carousel-item">
-                        <i class="devicon-python-plain text-2xl"></i>
-                        <span class="text-xl">Python</span>
+    <!-- Tech Stack -->
+    {{ with (index site.Data .Language.Lang "tech") }}
+        <section class="mb-20">
+            <h2 class="text-4xl font-bold mb-2 relative">{{ T "whatIWorkWith" }}</h2>
+            <div class="tech-carousel">
+                <div class="carousel-container">
+                    <div class="carousel-track carousel-track-left-to-right">
+                        {{- range .row1 -}}
+                            <div class="carousel-item">
+                                <i class="{{ .icon }}"></i>
+                                <span class="text-xl">{{ .name }}</span>
+                            </div>
+                        {{- end -}}
+                        {{/* Duplicates */}}
+                        {{- range .row1 -}}
+                            <div class="carousel-item">
+                                <i class="{{ .icon }}"></i>
+                                <span class="text-xl">{{ .name }}</span>
+                            </div>
+                        {{- end -}}
                     </div>
-                    <div class="carousel-item">
-                        <i class="devicon-nginx-original"></i>
-                        <span class="text-xl">nginx</span>
-                    </div>
-                    <div class="carousel-item">
-                        <i class="devicon-less-plain-wordmark"></i>
-                        <span class="text-xl">LESS</span>
-                    </div>
-                    <div class="carousel-item">
-                        <i class="devicon-javascript-plain"></i>
-                        <span class="text-xl">JavaScript</span>
-                    </div>
-                    <div class="carousel-item">
-                        <i class="devicon-ruby-plain"></i>
-                        <span class="text-xl">Ruby</span>
-                    </div>
-                    <div class="carousel-item">
-                        <i class="devicon-html5-plain"></i>
-                        <span class="text-xl">HTML5</span>
-                    </div>
-                    <div class="carousel-item">
-                        <i class="devicon-bootstrap-plain"></i>
-                        <span class="text-xl">Bootstrap</span>
-                    </div>
-                    <div class="carousel-item">
-                        <i class="devicon-tailwindcss-plain"></i>
-                        <span class="text-xl">Tailwind</span>
-                    </div>
-                    <div class="carousel-item">
-                        <i class="devicon-css3-plain"></i>
-                        <span class="text-xl">CSS3</span>
-                    </div>
-                    <div class="carousel-item">
-                        <i class="devicon-cplusplus-plain"></i>
-                        <span class="text-xl">C++</span>
-                    </div>
-                    <div class="carousel-item">
-                        <i class="devicon-php-plain"></i>
-                        <span class="text-xl">PHP</span>
-                    </div>
-                    <div class="carousel-item">
-                        <i class="devicon-laravel-plain"></i>
-                        <span class="text-xl">Laravel</span>
-                    </div>
-                    <div class="carousel-item">
-                        <i class="devicon-mithril-original"></i>
-                        <span class="text-xl">Mithril.js</span>
-                    </div>
-                    <div class="carousel-item">
-                        <i class="devicon-sass-original"></i>
-                        <span class="text-xl">SCSS</span>
-                    </div>
+                </div>
 
-                    <!-- Duplicates -->
-                    <div class="carousel-item">
-                        <i class="devicon-python-plain text-2xl"></i>
-                        <span class="text-xl">Python</span>
-                    </div>
-                    <div class="carousel-item">
-                        <i class="devicon-nginx-original"></i>
-                        <span class="text-xl">nginx</span>
-                    </div>
-                    <div class="carousel-item">
-                        <i class="devicon-less-plain-wordmark"></i>
-                        <span class="text-xl">LESS</span>
-                    </div>
-                    <div class="carousel-item">
-                        <i class="devicon-javascript-plain"></i>
-                        <span class="text-xl">JavaScript</span>
-                    </div>
-                    <div class="carousel-item">
-                        <i class="devicon-ruby-plain"></i>
-                        <span class="text-xl">Ruby</span>
-                    </div>
-                    <div class="carousel-item">
-                        <i class="devicon-html5-plain"></i>
-                        <span class="text-xl">HTML5</span>
-                    </div>
-                    <div class="carousel-item">
-                        <i class="devicon-bootstrap-plain"></i>
-                        <span class="text-xl">Bootstrap</span>
-                    </div>
-                    <div class="carousel-item">
-                        <i class="devicon-tailwindcss-plain"></i>
-                        <span class="text-xl">Tailwind</span>
-                    </div>
-                    <div class="carousel-item">
-                        <i class="devicon-css3-plain"></i>
-                        <span class="text-xl">CSS3</span>
-                    </div>
-                    <div class="carousel-item">
-                        <i class="devicon-cplusplus-plain"></i>
-                        <span class="text-xl">C++</span>
-                    </div>
-                    <div class="carousel-item">
-                        <i class="devicon-php-plain"></i>
-                        <span class="text-xl">PHP</span>
-                    </div>
-                    <div class="carousel-item">
-                        <i class="devicon-laravel-plain"></i>
-                        <span class="text-xl">Laravel</span>
-                    </div>
-                    <div class="carousel-item">
-                        <i class="devicon-mithril-original"></i>
-                        <span class="text-xl">Mithril.js</span>
-                    </div>
-                    <div class="carousel-item">
-                        <i class="devicon-sass-original"></i>
-                        <span class="text-xl">SCSS</span>
+                <div class="carousel-container -mt-1">
+                    <div class="carousel-track-reverse">
+                        {{- range .row2 -}}
+                            <div class="carousel-item">
+                                <i class="{{ .icon }}"></i>
+                                <span class="text-xl">{{ .name }}</span>
+                            </div>
+                        {{- end -}}
+                        {{/* Duplicates */}}
+                        {{- range .row2 -}}
+                            <div class="carousel-item">
+                                <i class="{{ .icon }}"></i>
+                                <span class="text-xl">{{ .name }}</span>
+                            </div>
+                        {{- end -}}
                     </div>
                 </div>
             </div>
-
-            <!-- Row 2 -->
-            <div class="carousel-container -mt-1">
-                <div class="carousel-track-reverse">
-                    <div class="carousel-item">
-                        <i class="devicon-mariadb-plain"></i>
-                        <span class="text-xl">MariaDB</span>
-                    </div>
-                    <div class="carousel-item">
-                        <i class="devicon-postgresql-plain"></i>
-                        <span class="text-xl">PostgreSQL</span>
-                    </div>
-                    <div class="carousel-item">
-                        <i class="devicon-rails-plain"></i>
-                        <span class="text-xl">Rails</span>
-                    </div>
-                    <div class="carousel-item">
-                        <i class="devicon-mongodb-plain text-2xl"></i>
-                        <span class="text-xl">MongoDB</span>
-                    </div>
-                    <div class="carousel-item">
-                        <i class="devicon-mysql-plain"></i>
-                        <span class="text-xl">MySQL</span>
-                    </div>
-                    <div class="carousel-item">
-                        <i class="devicon-linux-plain"></i>
-                        <span class="text-xl">Linux</span>
-                    </div>
-                    <div class="carousel-item">
-                        <i class="devicon-composer-line"></i>
-                        <span class="text-xl">Composer</span>
-                    </div>
-                    <div class="carousel-item">
-                        <i class="devicon-webpack-plain"></i>
-                        <span class="text-xl">Webpack</span>
-                    </div>
-                    <div class="carousel-item">
-                        <i class="devicon-git-plain"></i>
-                        <span class="text-xl">Git</span>
-                    </div>
-                    <div class="carousel-item">
-                        <i class="devicon-docker-plain"></i>
-                        <span class="text-xl">Docker</span>
-                    </div>
-                    <div class="carousel-item">
-                        <i class="devicon-react-original"></i>
-                        <span class="text-xl">React</span>
-                    </div>
-                    <div class="carousel-item">
-                        <i class="devicon-nodejs-plain"></i>
-                        <span class="text-xl">Node.js</span>
-                    </div>
-
-                    <!-- Duplicates -->
-                    <div class="carousel-item">
-                        <i class="devicon-mariadb-plain"></i>
-                        <span class="text-xl">MariaDB</span>
-                    </div>
-                    <div class="carousel-item">
-                        <i class="devicon-postgresql-plain"></i>
-                        <span class="text-xl">PostgreSQL</span>
-                    </div>
-                    <div class="carousel-item">
-                        <i class="devicon-rails-plain"></i>
-                        <span class="text-xl">Rails</span>
-                    </div>
-                    <div class="carousel-item">
-                        <i class="devicon-mongodb-plain text-2xl"></i>
-                        <span class="text-xl">MongoDB</span>
-                    </div>
-                    <div class="carousel-item">
-                        <i class="devicon-mysql-plain"></i>
-                        <span class="text-xl">MySQL</span>
-                    </div>
-                    <div class="carousel-item">
-                        <i class="devicon-linux-plain"></i>
-                        <span class="text-xl">Linux</span>
-                    </div>
-                    <div class="carousel-item">
-                        <i class="devicon-composer-line"></i>
-                        <span class="text-xl">Composer</span>
-                    </div>
-                    <div class="carousel-item">
-                        <i class="devicon-webpack-plain"></i>
-                        <span class="text-xl">Webpack</span>
-                    </div>
-                    <div class="carousel-item">
-                        <i class="devicon-git-plain"></i>
-                        <span class="text-xl">Git</span>
-                    </div>
-                    <div class="carousel-item">
-                        <i class="devicon-docker-plain"></i>
-                        <span class="text-xl">Docker</span>
-                    </div>
-                    <div class="carousel-item">
-                        <i class="devicon-react-original"></i>
-                        <span class="text-xl">React</span>
-                    </div>
-                    <div class="carousel-item">
-                        <i class="devicon-nodejs-plain"></i>
-                        <span class="text-xl">Node.js</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
+    {{ else }}
+        {{ warnf "No tech stack data found for language %q. Please define either data/%s/tech.(yaml|toml|json) or params.tech in config." .Language.Lang }}
+    {{ end }}
 
     <!-- Experience Section -->
     {{ $experienceData := index site.Data .Language.Lang "experience" }}
@@ -315,7 +131,7 @@
         </div>
     </section>
     {{ else }}
-    {{ warnf "No experience data found for language %q. Please define either data/%s/experience.(yaml|toml|json) or params.experience in config." .Language.Lang .Language.Lang }}
+    {{ warnf "No experience data found for language %q. Please define either data/%s/experience.(yaml|toml|json) or params.experience in config." .Language.Lang }}
     {{ end }}
 
     <!-- Projects Section -->
