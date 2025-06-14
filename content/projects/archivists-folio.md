@@ -2,7 +2,7 @@
 title: "Archivist's Folio"
 date: 2024-03-15
 description: "A sleek, modern, and fully responsive portfolio built for a client to showcase high-resolution artwork with a focus on performance and ease of use."
-image: "/images/projects/archivists-folio.gif" 
+image: "/images/projects/archivists-folio.webp" 
 link: "https://archivists-folio.netlify.app/"
 repo: "" 
 tech:

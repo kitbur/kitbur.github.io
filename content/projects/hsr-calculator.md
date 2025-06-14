@@ -2,7 +2,7 @@
 title: "HSR Calculator"
 date: 2025-05-22
 description: "A web-based calculator for the game Honkai: Star Rail. It estimates how much currency is needed for two different thresholds."
-image: "/images/projects/hsr-calc.gif"
+image: "/images/projects/hsr-calc.webp"
 link: "https://kitbur.github.io/hsr-calculator/"
 repo: "https://github.com/kitbur/hsr-calculator"
 tech:

@@ -2,7 +2,7 @@
 title: "Flarum Ruby Text Extension"
 date: 2025-06-08
 description: "A Flarum extension that adds ruby text annotations to forum posts via BBCode. "
-image: "/images/projects/flarum-ruby-text.gif"
+image: "/images/projects/flarum-ruby-text.webp"
 link: ""
 repo: "https://github.com/kitbur/ruby-text"
 tech:

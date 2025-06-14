@@ -4,7 +4,7 @@
 
 My personal portfolio website.
 
-![Demo Gif](/static/images/demo.gif)
+![Demo Gif](/static/images/demo.webp)
 
 ## Features
 - Dark/light mode toggle
