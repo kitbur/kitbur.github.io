@@ -5,26 +5,25 @@
   period = "April 2019 - Present"
   country = "USA"
 responsibilities = [
-  "Designed, developed, and maintained responsive websites and web applications tailored to client needs.",
-  "Worked closely with clients and community members to understand requirements and deliver user-focused solutions.",
-  "Built server-side functionality using Node.js to ensure efficient, scalable application performance.",
-  "Installed and configured robust content management systems, tools, and projects."
+  "Architected a full-stack financial modeling application with a modern data pipeline and a comprehensive test suite.",
+  "Solved a critical DevOps roadblock by re-engineering a community Docker image, enabling the development and delivery of a comissioned extension.",
+  "Engineered a headless CMS solution for a professional artist, creating a custom, high-performance gallery with a frictionless maintenance workflow.",
+  "Designed and developed a vibrant and responsive marketing landing page, utilizing modern front-end technologies with advanced DOM manipulation.",
 ]
-  technologies = ["JavaScript", "CSS", "HTML", "Node.js", "React", "PHP", "Ruby", "MySQL", "Git", "Docker"]
+  technologies = ["JavaScript", "Python", "PHP", "Docker", "Node.js", "React", "Vitest", "HTML", "CSS", "SCSS", "Tailwind CSS", "Laravel", "Mithril.js", "Git", "MariaDB", "MySQL", "Composer"]
 
 [[experience]]
-  role = "Trust & Safety Volunteer / Codebase Contributor"
+  role = "Ruby on Rails Developer (Volunteer)"
   company = "Organization for Transformative Works"
   company_link = "https://transformativeworks.org"
   period = "May 2016 - Present"
   country = "Remote"
 responsibilities = [
-  "Contributed to a large-scale Ruby on Rails application that serves millions of users by improving internal tools, workflows, and core functionality.",
-  "Collaborated across multiple committees in a team-based, international environment to troubleshoot issues, enhance accessibility, and deliver user-facing features.",  
-  "Managed and curated metadata to improve content discoverability and user experience.",
-  "Maintained community safety by upholding terms of service policies and responding to user questions and concerns.",
+  "Contributed production code to the Archive of Our Own, a large-scale Ruby on Rails application with a mature, complex codebase serving millions of users.",  
+  "Successfully onboarded onto a professional, distributed, international development team, using Jira and Git to manage assignments and contribute to the workflow.",
+  "Resolved active issues by writing, testing, and submitting code for peer review, focusing on improving core application functionality and maintainability.",
 ]
-  technologies = ["Docker", "Ruby", "Rails", "Git", "Jira", "Zoho", "Slack"]
+  technologies = ["Docker", "Ruby", "Rails", "MySQL", "Git", "Jira", "RSpec", "Cucumber"]
 
 [[experience]]
   role = "Open Source Contributer"
