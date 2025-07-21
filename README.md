@@ -1,8 +1,8 @@
-# K. Burford's Developer Portfolio
+# kitbur's Developer Portfolio
 
 👉 [Live Site](https://kitbur.github.io)
 
-My personal portfolio website.
+My personal portfolio website: a heavily modified version of [hugo-noir](https://themes.gohugo.io/themes/hugo-noir/).
 
 ![Demo Gif](/static/images/demo.webp)
 
