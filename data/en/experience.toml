@@ -19,11 +19,13 @@ responsibilities = [
   period = "May 2016 - Present"
   country = "Remote"
 responsibilities = [
-  "Contributed production code to the Archive of Our Own, a large-scale Ruby on Rails application with a mature, complex codebase serving millions of users.",  
-  "Successfully onboarded onto a professional, distributed, international development team, using Jira and Git to manage assignments and contribute to the workflow.",
-  "Resolved active issues by writing, testing, and submitting code for peer review, focusing on improving core application functionality and maintainability.",
+  "Contributed production code to the Archive of Our Own, a large-scale Ruby on Rails application serving millions of users worldwide.",
+  "Performed comprehensive quality assurance testing for a mature, complex codebase, identifying critical bugs, performance issues, and user experience problems before production deployment.",
+  "Collaborated with a large international team of volunteer developers across multiple time zones, utilizing Jira for project management and Git workflows for coordinated code delivery.",
+  "Resolved active production issues through systematic debugging, root cause analysis, and implementation of robust solutions with comprehensive test coverage.",
+  "Contributed to team knowledge sharing and mentoring of new contributors through code review processes and established testing protocols.",
 ]
-  technologies = ["Docker", "Ruby", "Rails", "MySQL", "Git", "Jira", "RSpec", "Cucumber"]
+technologies = ["Docker", "Ruby", "Rails", "JavaScript", "MySQL", "Git", "Jira", "RSpec", "Cucumber"]
 
 [[experience]]
   role = "Open Source Contributer"
